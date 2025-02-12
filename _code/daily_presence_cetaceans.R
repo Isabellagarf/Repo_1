@@ -10,7 +10,7 @@ library(tsibble)
 
 
 #### READ IN COMPILED SAVED DATA ####
-all_sp <- read.csv("data/all_sp_dataframe.csv")
+all_sp <- read.csv("_data/all_sp_dataframe.csv")
 
 # the benefit of an R project is that your working directory is automatically set to the repo folder
 # this way you don't have to use full paths (like below) that are specific to your computer and can more easily collaborate with others
@@ -107,5 +107,5 @@ ggplot(data= allsp_forplot_noFeb29) +
 
 
 # Save plot
-ggsave("figs/dailyPresenceAllCetatceans.png", width=10, height=8, units="in", dpi=1200)
+ggsave("_figs/dailyPresenceAllCetatceans.png", width=10, height=8, units="in", dpi=1200)
 
