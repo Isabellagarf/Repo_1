@@ -2,7 +2,7 @@
 # based on code from: GE Davis 02/10/2023, adapted from Davis et al 2020 5 species presence plot
 
 
-#### LOAD REQUIRED PACKAGES ####
+#### LOAD REQUIRED PACKAGES #####
 
 library(tidyverse)
 library(lubridate)
@@ -99,7 +99,7 @@ ggplot(data= allsp_forplot_noFeb29) +
                              "Blue"= "#08519c", 
                              "Minke" ="#F94144" ,
                              "Sperm" ="#0f4c5c" , 
-                             "Harbour Porpoise" ="green", 
+                             "Harbour Porpoise" ="green",
                              "Delphinid spp." = "#00afb9"), 
                     name="Species",
                     breaks=c("Harbour Porpoise","Delphinid spp.","Sperm", "Humpback","Minke", "NARW", "Sei", "Fin", "Blue"))
