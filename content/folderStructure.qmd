@@ -6,7 +6,7 @@ editor:
 ---
 
 This template provides a set of standard folders for specific types of
-files. We recommend following these standard approaches as consistency
+files. We demand following these standard approaches as consistency
 allows us to follow each other's research workflow.
 
 Here we further explain how to work with this folder structure, with
